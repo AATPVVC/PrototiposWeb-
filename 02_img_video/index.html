@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Declara el tipo de documento. Indica al navevegador que usara
+HTML5 -->
+<html lang="es">
+<!--Elemento principal del documento HTML.
+lang="es" indica que el contenido del documento está en español -->
+<head><!--Seccion de configuracion del documento-->
+    <meta charset="UTF-8">
+    <!--define la codificación de caracteres.
+    UTF-8 permite usar correctamente tildes, ñ, simbolos, etc. -->
+    <meta name="viewport" content="width=device-width", inicial-scale=1.0>
+    <!--Hace que el sitio sea responsive.
+    Permite que el diseño se adapte a celulares y tablets-->
+    <title>Practicando HTML - img y video</title>
+    <!--Titulo que aparece en el navegador-->
+    <meta name="author" content="Angel">
+    <!--Indica quien creo el sitio web -->
+
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--conexion con hoja CSS de estilos -->
+</head>
+<body>
+    <header> <!-- Encabezado del documento -->
+        <h1>Sitio multimedia personal</h1>
+    </header>
+    <hr> <!-- Crea una línea de división-->
+    <main><!-- Seccion principal del documento-->
+        <h2>Mis datos:</h2>
+        <p>Nombre: Angel<br> <!-- br es el salto de linea -->
+            Curso: 3°C
+        </p>
+        <hr>
+        <h2>Galeria multimedia</h2>
+        <p>Imagen de ejemplo</p>
+        <img src="static/images/imagen1.png" alt="primera imagen" width="300">
+        <img src="static/images/imagen2.png" alt="primera imagen" width="200">
+        <img src="static/images/imagen3.png" alt="primera imagen" width="200">
+        <img src="static/images/imagen4.png" alt="primera imagen" width="200">
+        <hr>
+        <h2>Videos</h2>
+        <video width="600" controls>
+            <source src="static/video/video1.mp4.mp4" type="video/mp4">
+        </video>
+        <video width="543" controls>
+            <source src="static/video/video2.mp4" type="video/mp4">
+        </video>
+    </main>
+    <footer>
+        <p style="text-align:center">Todos los derechos reservados
+            -<a href="https://freepacman.org/">Juego de Pacman</a><!--etiqueta <a> para vinculos-->
+        </p>
+    </footer>
+</body>
+
+</html>

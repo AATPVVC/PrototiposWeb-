@@ -1,0 +1,31 @@
+body {
+    padding: 40px;
+    background-color: aqua;
+
+}
+header {
+    text-align: center;
+    background-color: beige;
+}
+
+header:hover {
+    background-color: blue;
+}
+
+main {
+    background-color: aqua;
+}
+
+main:hover {
+    background-color: aliceblue;
+}
+
+footer {
+    background-color: brown;
+}
+
+footer:hover {
+    background-color: blanchedalmond;
+}
+
+h1 {}
